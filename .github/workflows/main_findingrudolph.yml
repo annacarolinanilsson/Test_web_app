@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'FindingRudolph'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_172E59F916F343BABA86FB90F4D9241E }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9281C1CC7FED41BBA70B9D6B20823C97 }}
