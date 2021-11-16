@@ -1,3 +1,7 @@
-import numpy as np
+from flask import Flask
+app = Flask(__name__)
 
-print("Hello web")
+@app.route("/")
+def hello():
+    return "Hello web"
+
